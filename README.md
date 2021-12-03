@@ -13,7 +13,14 @@ To install python you can follow the link [Install Python](https://realpython.co
 You can find the libraries that are required in `requirements.txt`
 
 ## Usage
-[machine_monitoring.ipynb](machine_monitoring.ipynb)
+Run collect_data.py to get the dataset from audio file and create csv file with below command:
+`python collect_data.py`
+
+For creating and testing model open `machine_monitoring.ipynb` in jupyter-notebook and excute cells.
+
+For model validation and machine monitoring Load model.pkl file with
+` pickle.load(open('model.pkl', 'rb'))` 
+This code is in `machine_monitoring.ipynb`. you can run directly from there.
 
 
 ## Repo Architecture
